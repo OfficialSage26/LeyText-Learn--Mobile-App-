@@ -19,6 +19,13 @@ describe('normalizeText', () => {
     expect(normalizeText('')).toBe('');
     expect(normalizeText('?!.')).toBe('');
   });
+  test('strips curly double quotes', () => {
+    expect(normalizeText('\u201CKumusta?\u201D')).toBe('kumusta');
+  });
+  test('maps curly apostrophes to straight apostrophe inside words', () => {
+    expect(normalizeText('di\u2019ba')).toBe("di'ba");
+    expect(normalizeText('\u2018di\u2019ba\u2019')).toBe("'di'ba'");
+  });
 });
 
 describe('tokenize', () => {
@@ -27,5 +34,8 @@ describe('tokenize', () => {
   });
   test('returns empty array for empty input', () => {
     expect(tokenize('   ')).toEqual([]);
+  });
+  test('curly apostrophe does not split a word', () => {
+    expect(tokenize('di\u2019ba kumusta')).toEqual(["di'ba", 'kumusta']);
   });
 });
