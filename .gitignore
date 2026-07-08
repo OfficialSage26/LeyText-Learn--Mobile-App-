@@ -36,6 +36,9 @@ yarn-error.*
 # typescript
 *.tsbuildinfo
 
+# generated database (built from data/*.csv via `npm run build:db`)
+assets/db/
+
 example
 
 # generated native folders

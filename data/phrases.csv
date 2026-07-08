@@ -1,0 +1,169 @@
+category,tl,ceb,pron
+greetings,Magandang umaga,Maayong buntag,ma-AH-yong BOON-tag
+greetings,Magandang tanghali,Maayong udto,ma-AH-yong OOD-to
+greetings,Magandang hapon,Maayong hapon,ma-AH-yong HA-pon
+greetings,Magandang gabi,Maayong gabii,ma-AH-yong ga-BEE-i
+greetings,Kumusta ka?,Kumusta ka?,koo-MOOS-ta ka
+greetings,Kumusta kayo?,Kumusta mo?,koo-MOOS-ta mo
+greetings,Mabuti naman ako,Maayo ra ko,ma-AH-yo ra ko
+greetings,Ayos lang ako,Okay ra ko,o-KAY ra ko
+greetings,Ikaw ba?,Ikaw diay?,ee-KAW dee-AI
+greetings,Ano ang pangalan mo?,Unsa imong ngalan?,OON-sa EE-mong NGA-lan
+greetings,Ako si Juan,Ako si Juan,a-KO si HWAN
+greetings,Ikinagagalak kong makilala ka,Nalipay ko nga nailhan ka,na-lee-PAI ko nga na-EEL-han ka
+greetings,Matagal na tayong hindi nagkita,Dugay na tang wala magkita,doo-GAI na tang wa-LA mag-KEE-ta
+greetings,Maligayang pagdating,Maayong pag-abot,ma-AH-yong pag-A-bot
+greetings,Paalam,Babay,ba-BAI
+greetings,Ingat ka,Amping,AM-ping
+greetings,Magkita tayo bukas,Magkita ta ugma,mag-KEE-ta ta OOG-ma
+greetings,Hanggang sa muli,Hangtod sa sunod,HANG-tod sa SOO-nod
+greetings,Salamat,Salamat,sa-LA-mat
+greetings,Maraming salamat,Daghang salamat,DAG-hang sa-LA-mat
+greetings,Walang anuman,Walay sapayan,wa-LAI sa-pa-YAN
+greetings,Magandang araw,Maayong adlaw,ma-AH-yong AD-law
+greetings,Kumusta ang pamilya mo?,Kumusta imong pamilya?,koo-MOOS-ta EE-mong pa-MEEL-ya
+greetings,Sana gumaling ka,Unta maayo ka,OON-ta ma-AH-yo ka
+greetings,Matulog ka nang mahimbing,Katulog og maayo,ka-TOO-log og ma-AH-yo
+greetings,Kumusta ang trabaho?,Kumusta ang trabaho?,koo-MOOS-ta ang tra-BA-ho
+greetings,Masaya akong makita ka,Malipay ko makita ka,ma-LEE-pai ko ma-KEE-ta ka
+greetings,Kumusta ang iyong araw?,Kumusta imong adlaw?,koo-MOOS-ta EE-mong AD-law
+directions,Saan ang palengke?,Asa ang merkado?,AH-sa ang mer-KA-do
+directions,Saan ang banyo?,Asa ang banyo?,AH-sa ang BAN-yo
+directions,Saan ako pupunta?,Asa ko moadto?,AH-sa ko mo-AD-to
+directions,Paano pumunta doon?,Unsaon pag-adto didto?,oon-SA-on pag-AD-to DEED-to
+directions,Malayo pa ba?,Layo pa ba?,LA-yo pa ba
+directions,Malapit na ba?,Duol na ba?,DOO-ol na ba
+directions,Kumaliwa ka,Liko sa wala,LEE-ko sa wa-LA
+directions,Kumanan ka,Liko sa tuo,LEE-ko sa TOO-o
+directions,Dumiretso ka,Diretso lang,dee-RET-so lang
+directions,Bumalik ka,Balik ka,ba-LEEK ka
+directions,Nasaan ang istasyon?,Asa ang estasyon?,AH-sa ang es-tas-YON
+directions,Saan ang pinakamalapit na tindahan?,Asa ang pinakaduol nga tindahan?,AH-sa ang pi-na-ka-DOO-ol nga tin-DA-han
+directions,Nawawala ako,Nawala ko,na-WA-la ko
+directions,Maaari mo ba akong tulungan?,Matabangan mo ko?,ma-ta-BA-ngan mo ko
+directions,Ituro mo sa akin ang daan,Itudlo sa ako ang dalan,ee-TOOD-lo sa A-ko ang DA-lan
+directions,Nasa kaliwa ito,Naa sa wala,NA-a sa wa-LA
+directions,Nasa kanan ito,Naa sa tuo,NA-a sa TOO-o
+directions,Nasa tapat ito,Naa sa atbang,NA-a sa AT-bang
+directions,Nasa tabi ito ng simbahan,Naa sa kilid sa simbahan,NA-a sa KEE-lid sa sim-BA-han
+directions,Gaano kalayo ang bayan?,Unsa kalayo ang lungsod?,OON-sa ka-LA-yo ang loong-SOD
+directions,Aling daan ang tama?,Asang dalan ang husto?,AH-sang DA-lan ang HOOS-to
+directions,Dito ba papuntang palengke?,Diri ba padulong sa merkado?,DEE-ri ba pa-DOO-long sa mer-KA-do
+directions,Sumakay ka ng dyip,Sakay og dyip,SA-kai og jeep
+directions,Bumaba ka sa kanto,Kanaog sa eskina,ka-NA-og sa es-KEE-na
+directions,Nasa hilaga ito,Naa sa amihanan,NA-a sa a-mi-HA-nan
+directions,Nasa timog ito,Naa sa habagatan,NA-a sa ha-ba-GA-tan
+directions,Saan ang ospital?,Asa ang ospital?,AH-sa ang os-pee-TAL
+directions,Ilang kilometro pa?,Pila pa ka kilometro?,PEE-la pa ka ki-LO-me-tro
+food,Gutom na ako,Gigutom na ko,gi-GOO-tom na ko
+food,Uhaw na ako,Giuhaw na ko,gi-OO-haw na ko
+food,Masarap ito,Lami ni,LA-mi ni
+food,Busog na ako,Busog na ko,BOO-sog na ko
+food,Ano ang ulam?,Unsa ang sud-an?,OON-sa ang SOOD-an
+food,Kumain na tayo,Mangaon na ta,ma-NGA-on na ta
+food,Gusto ko ng kanin,Gusto ko og kan-on,GOOS-to ko og KAN-on
+food,Bigyan mo ako ng tubig,Hatagi ko og tubig,ha-TA-gi ko og TOO-big
+food,Ang sarap ng pagkain,Lami kaayo ang pagkaon,LA-mi ka-A-yo ang pag-KA-on
+food,Maanghang ba ito?,Halang ba ni?,HA-lang ba ni
+food,Gusto ko ng kape,Gusto ko og kape,GOOS-to ko og ka-PE
+food,Isa pang kanin,Usa pa ka kan-on,OO-sa pa ka KAN-on
+food,Ano ang gusto mong kainin?,Unsa imong gustong kan-on?,OON-sa EE-mong GOOS-tong KAN-on
+food,Mainit pa ang pagkain,Init pa ang pagkaon,EE-nit pa ang pag-KA-on
+food,Walang asin,Walay asin,wa-LAI a-SEEN
+food,Sobrang alat,Sobrang parat,SO-brang PA-rat
+food,Kumain ka na ba?,Nikaon na ka?,ni-KA-on na ka
+food,Gusto mo bang kumain?,Gusto ka mokaon?,GOOS-to ka mo-KA-on
+food,Nakakabusog ito,Makabusog ni,ma-ka-BOO-sog ni
+food,Luto na ba?,Luto na ba?,LOO-to na ba
+food,Hugasan mo ang plato,Hugasi ang plato,hoo-GA-si ang PLA-to
+food,Anong luto natin?,Unsa atong lutuon?,OON-sa A-tong loo-TOO-on
+food,Bilhan mo ako ng tinapay,Palit ko og pan,pa-LEET ko og pan
+food,Gutom na ba kayo?,Gigutom na mo?,gi-GOO-tom na mo
+food,Ubusin mo ang pagkain,Ubusa ang pagkaon,oo-BOO-sa ang pag-KA-on
+food,Magaling magluto si Nanay,Hanas magluto si Nanay,HA-nas mag-LOO-to si na-NAI
+food,Kain tayo sa labas,Mangaon ta sa gawas,ma-NGA-on ta sa GA-was
+food,Wala akong gana,Wala koy gana,wa-LA koi GA-na
+shopping,Magkano ito?,Tagpila ni?,tag-PEE-la ni
+shopping,Ang mahal naman,Mahal kaayo,ma-HAL ka-A-yo
+shopping,Pwede bang tumawad?,Pwede ba maghangyo?,PWE-de ba mag-HANG-yo
+shopping,May tawad ba?,Naay hangyo?,NA-ai HANG-yo
+shopping,Bibili ako nito,Paliton nako ni,pa-LEE-ton NA-ko ni
+shopping,Wala akong pera,Wala koy kwarta,wa-LA koi KWAR-ta
+shopping,Magkano lahat?,Tagpila tanan?,tag-PEE-la ta-NAN
+shopping,Ano ang sukli ko?,Pila akong sukli?,PEE-la A-kong sook-LEE
+shopping,Meron ba kayong ganito?,Naa mo ani?,NA-a mo A-ni
+shopping,Ilan ang gusto mo?,Pila imong gusto?,PEE-la EE-mong GOOS-to
+shopping,Isa lang,Usa lang,OO-sa lang
+shopping,Bigyan mo ako ng resibo,Hatagi ko og resibo,ha-TA-gi ko og re-SEE-bo
+shopping,Saan ako magbabayad?,Asa ko mobayad?,AH-sa ko mo-BA-yad
+shopping,Mura ito,Barato ni,ba-RA-to ni
+shopping,Ubos na ba?,Nahurot na?,na-HOO-rot na
+shopping,Meron pa ba?,Naa pa ba?,NA-a pa ba
+shopping,Gusto ko ng mas malaki,Gusto ko og mas dako,GOOS-to ko og mas DA-ko
+shopping,Anong kulay ang meron kayo?,Unsang kolor ang naa mo?,OON-sang KO-lor ang NA-a mo
+shopping,Pwede ko bang subukan?,Pwede nako sulayan?,PWE-de NA-ko soo-la-YAN
+shopping,Bagay ba sa akin?,Bagay ba nako?,BA-gai ba NA-ko
+shopping,Magkano ang kilo?,Tagpila ang kilo?,tag-PEE-la ang KEE-lo
+shopping,Bilhin natin ito,Paliton nato ni,pa-LEE-ton NA-to ni
+shopping,Masyadong mahal,Sobrang mahal,SO-brang ma-HAL
+shopping,Bawasan mo naman,Hangyoi intawon,hang-YO-i in-TA-won
+shopping,Nasaan ang kahera?,Asa ang kahera?,AH-sa ang ka-HE-ra
+shopping,Sarado na ba ang tindahan?,Sirado na ang tindahan?,si-RA-do na ang tin-DA-han
+shopping,Bukas pa ba kayo?,Abli pa mo?,AB-li pa mo
+shopping,Salamat sa pagbili,Salamat sa pagpalit,sa-LA-mat sa pag-PA-lit
+emergencies,Tulong!,Tabang!,TA-bang
+emergencies,Saklolo!,Tabangi ko!,ta-BA-ngi ko
+emergencies,May sunog!,Naay kalayo!,NA-ai ka-LA-yo
+emergencies,Tumawag ka ng pulis,Tawag og pulis,TA-wag og poo-LEES
+emergencies,Tumawag ka ng ambulansya,Tawag og ambulansya,TA-wag og am-boo-LAN-sya
+emergencies,May aksidente,Naay aksidente,NA-ai ak-si-DEN-te
+emergencies,May sakit ako,Nagsakit ko,nag-SA-kit ko
+emergencies,Masakit ang tiyan ko,Sakit akong tiyan,SA-kit A-kong ti-YAN
+emergencies,Tawagin mo ang doktor,Tawga ang doktor,TAW-ga ang dok-TOR
+emergencies,Kailangan ko ng tulong,Nagkinahanglan ko og tabang,nag-ki-na-HANG-lan ko og TA-bang
+emergencies,Nasugatan ako,Nasamdan ko,na-SAM-dan ko
+emergencies,Hindi ako makahinga,Dili ko makaginhawa,DEE-li ko ma-ka-gin-HA-wa
+emergencies,Nahihilo ako,Gilipong ko,gi-LEE-pong ko
+emergencies,Nawawala ang anak ko,Nawala akong anak,na-WA-la A-kong A-nak
+emergencies,May magnanakaw!,Naay kawatan!,NA-ai ka-WA-tan
+emergencies,Tigil!,Hunong!,HOO-nong
+emergencies,Mag-ingat ka!,Amping!,AM-ping
+emergencies,Delikado dito,Peligro diri,pe-LEEG-ro DEE-ri
+emergencies,Saan ang pinakamalapit na ospital?,Asa ang pinakaduol nga ospital?,AH-sa ang pi-na-ka-DOO-ol nga os-pee-TAL
+emergencies,Kailangan ko ng gamot,Nagkinahanglan ko og tambal,nag-ki-na-HANG-lan ko og TAM-bal
+emergencies,May lindol!,Naay linog!,NA-ai LEE-nog
+emergencies,Lumikas na tayo,Mobakwit na ta,mo-BAK-wit na ta
+emergencies,Tawagin ang bumbero,Tawga ang bombero,TAW-ga ang bom-BE-ro
+emergencies,May nalunod,Naay nalumos,NA-ai na-LOO-mos
+emergencies,Dalhin mo ako sa ospital,Dad-a ko sa ospital,DAD-a ko sa os-pee-TAL
+emergencies,Wala akong makita,Wala koy makita,wa-LA koi ma-KEE-ta
+emergencies,Nawala ang pitaka ko,Nawala akong pitaka,na-WA-la A-kong pi-TA-ka
+emergencies,Bilisan mo!,Dalia!,da-LEE-a
+small_talk,Anong pangalan mo?,Unsay imong ngalan?,OON-sai EE-mong NGA-lan
+small_talk,Taga saan ka?,Taga asa ka?,TA-ga AH-sa ka
+small_talk,Ilang taon ka na?,Pila na ka tuig?,PEE-la na ka TOO-ig
+small_talk,Ano ang trabaho mo?,Unsa imong trabaho?,OON-sa EE-mong tra-BA-ho
+small_talk,May asawa ka na ba?,Minyo na ka?,MIN-yo na ka
+small_talk,Ilan ang anak mo?,Pila imong anak?,PEE-la EE-mong A-nak
+small_talk,Saan ka nakatira?,Asa ka nagpuyo?,AH-sa ka nag-POO-yo
+small_talk,Ano ang paborito mong pagkain?,Unsa imong paboritong pagkaon?,OON-sa EE-mong pa-bo-REE-tong pag-KA-on
+small_talk,Marunong ka bang mag-Bisaya?,Kamao ka mag-Binisaya?,ka-MA-o ka mag-bi-ni-SA-ya
+small_talk,Konti lang,Gamay ra,GA-mai ra
+small_talk,Hindi ko maintindihan,Dili ko kasabot,DEE-li ko ka-SA-bot
+small_talk,Pakiulit mo,Balika palihog,ba-LEE-ka pa-LEE-hog
+small_talk,Ano ang ibig sabihin nito?,Unsa ni pasabot?,OON-sa ni pa-SA-bot
+small_talk,Magandang panahon ngayon,Nindot ang panahon karon,NIN-dot ang pa-NA-hon ka-RON
+small_talk,Mainit ngayon,Init karon,EE-nit ka-RON
+small_talk,Umuulan,Nag-ulan,nag-OO-lan
+small_talk,Anong oras na?,Unsa nang orasa?,OON-sa nang o-RA-sa
+small_talk,Sandali lang,Kadiyot lang,ka-di-YOT lang
+small_talk,Sige,Sige,SEE-ge
+small_talk,Walang problema,Walay problema,wa-LAI pro-ble-MA
+small_talk,Masaya akong makausap ka,Malipay ko makig-istorya nimo,ma-LEE-pai ko ma-kig-is-TOR-ya NEE-mo
+small_talk,Tara na,Adto na ta,AD-to na ta
+small_talk,Saan ka pupunta?,Asa ka padulong?,AH-sa ka pa-DOO-long
+small_talk,Ano ang balita?,Unsa may balita?,OON-sa mai ba-LEE-ta
+small_talk,Ingat sa daan,Amping sa dalan,AM-ping sa DA-lan
+small_talk,Kita tayo mamaya,Magkita ta unya,mag-KEE-ta ta OON-ya
+small_talk,Salamat sa pagbisita,Salamat sa pagbisita,sa-LA-mat sa pag-bi-SEE-ta
+small_talk,Pasensya na,Pasayloa ko,pa-sai-LO-a ko

@@ -1,0 +1,919 @@
+tl,ceb,pos,note
+ako,ako,pron,I/me
+ko,ko,pron,I/my (short)
+akin,ako,pron,mine
+ikaw,ikaw,pron,you
+ka,ka,pron,you (short)
+iyo,imo,pron,yours
+mo,mo,pron,your
+siya,siya,pron,he/she
+kaniya,iya,pron,his/hers
+niya,niya,pron,his/her
+kami,kami,pron,we (exclusive)
+namin,namo,pron,our (exclusive)
+tayo,kita,pron,we (inclusive)
+natin,nato,pron,our (inclusive)
+kayo,kamo,pron,you (plural)
+inyo,inyo,pron,yours (plural)
+ninyo,ninyo,pron,your (plural)
+sila,sila,pron,they
+kanila,ila,pron,theirs
+nila,nila,pron,their
+ito,kini,pron,this
+ito,ni,pron,this (short)
+iyan,kana,pron,that (near you)
+iyan,na,pron,that (short)
+iyon,kadto,pron,that (far)
+dito,dinhi,adv,here
+rito,dinhi,adv,here (variant)
+dito,diri,adv,here
+diyan,dinha,adv,there (near you)
+riyan,dinha,adv,there (variant)
+doon,didto,adv,there (far)
+roon,didto,adv,there (variant)
+sino,kinsa,pron,who
+ano,unsa,pron,what
+saan,asa,adv,where
+saan,hain,adv,where (of a thing)
+kailan,kanus-a,adv,when
+bakit,nganong,adv,why
+bakit,ngano,adv,why (variant)
+paano,unsaon,adv,how
+magkano,tagpila,adv,how much (price)
+magkano,pila,adv,how much
+ilan,pila,adv,how many
+alin,hain,pron,which
+kanino,kang kinsa,pron,whose
+isa,usa,num,one
+dalawa,duha,num,two
+tatlo,tulo,num,three
+apat,upat,num,four
+lima,lima,num,five
+anim,unom,num,six
+pito,pito,num,seven
+walo,walo,num,eight
+siyam,siyam,num,nine
+sampu,napulo,num,ten
+labing-isa,napulog usa,num,eleven
+labindalawa,napulog duha,num,twelve
+labintatlo,napulog tulo,num,thirteen
+labing-apat,napulog upat,num,fourteen
+labinlima,napulog lima,num,fifteen
+dalawampu,kawhaan,num,twenty
+tatlumpu,katloan,num,thirty
+apatnapu,kap-atan,num,forty
+limampu,kalim-an,num,fifty
+animnapu,kan-uman,num,sixty
+pitumpu,kapitoan,num,seventy
+walumpu,kawaloan,num,eighty
+siyamnapu,kasiyaman,num,ninety
+isang daan,usa ka gatos,num,one hundred
+isang libo,usa ka libo,num,one thousand
+una,una,num,first
+pangalawa,ikaduha,num,second
+pangatlo,ikatulo,num,third
+kalahati,katunga,num,half
+nanay,nanay,noun,mother
+ina,inahan,noun,mother (formal)
+tatay,tatay,noun,father
+ama,amahan,noun,father (formal)
+anak,anak,noun,child/offspring
+kapatid,igsoon,noun,sibling
+kuya,manong,noun,older brother
+ate,manang,noun,older sister
+bunso,manghod,noun,younger sibling
+lolo,lolo,noun,grandfather
+lola,lola,noun,grandmother
+apo,apo,noun,grandchild
+asawa,asawa,noun,wife
+asawa,bana,noun,husband
+bana,bana,noun,husband
+mister,bana,noun,husband
+misis,asawa,noun,wife
+tiyo,uyoan,noun,uncle
+tiyo,tiyo,noun,uncle (Spanish)
+tiya,iyaan,noun,aunt
+tiya,tiya,noun,aunt (Spanish)
+pinsan,ig-agaw,noun,cousin
+pamangkin,pag-umangkon,noun,niece/nephew
+manugang,umagad,noun,in-law child
+biyenan,ugangan,noun,parent-in-law
+kaibigan,higala,noun,friend
+kaibigan,amigo,noun,friend (male)
+kasintahan,uyab,noun,sweetheart
+nobyo,uyab,noun,boyfriend
+nobya,uyab,noun,girlfriend
+pamilya,pamilya,noun,family
+kapitbahay,silingan,noun,neighbor
+tao,tawo,noun,person
+lalaki,lalaki,noun,man/male
+babae,babaye,noun,woman/female
+bata,bata,noun,child (young)
+matanda,tigulang,adj,old (person)
+binata,ulitawo,noun,bachelor
+dalaga,dalaga,noun,unmarried woman
+sanggol,masuso,noun,baby
+ulo,ulo,noun,head
+buhok,buhok,noun,hair
+mukha,nawong,noun,face
+noo,agtang,noun,forehead
+mata,mata,noun,eye
+kilay,kilay,noun,eyebrow
+ilong,ilong,noun,nose
+tainga,dalunggan,noun,ear
+bibig,baba,noun,mouth
+labi,ngabil,noun,lips
+ngipin,ngipon,noun,tooth
+dila,dila,noun,tongue
+baba,suwang,noun,chin
+pisngi,aping,noun,cheek
+leeg,liog,noun,neck
+balikat,abaga,noun,shoulder
+braso,bukton,noun,arm
+siko,siko,noun,elbow
+kamay,kamot,noun,hand
+daliri,tudlo,noun,finger
+kuko,kuko,noun,fingernail
+dibdib,dughan,noun,chest
+puso,kasingkasing,noun,heart
+tiyan,tiyan,noun,stomach/belly
+likod,likod,noun,back
+baywang,hawak,noun,waist
+puwit,lubot,noun,buttocks
+hita,paa,noun,thigh
+tuhod,tuhod,noun,knee
+binti,batiis,noun,shin/calf
+paa,tiil,noun,foot/leg
+sakong,tikod,noun,heel
+balat,panit,noun,skin
+buto,bukog,noun,bone
+dugo,dugo,noun,blood
+laman,unod,noun,flesh
+utak,utok,noun,brain
+baga,baga,noun,lung
+atay,atay,noun,liver
+bituka,tinai,noun,intestine
+kanin,kan-on,noun,cooked rice
+bigas,bugas,noun,uncooked rice
+palay,humay,noun,rice plant
+tinapay,pan,noun,bread
+mais,mais,noun,corn
+gulay,utan,noun,vegetable
+prutas,prutas,noun,fruit
+karne,karne,noun,meat
+isda,isda,noun,fish
+manok,manok,noun,chicken
+baboy,baboy,noun,pig/pork
+baka,baka,noun,cow/beef
+itlog,itlog,noun,egg
+gatas,gatas,noun,milk
+keso,keso,noun,cheese
+mantika,mantika,noun,oil/lard
+asin,asin,noun,salt
+asukal,asukal,noun,sugar
+paminta,paminta,noun,pepper
+suka,suka,noun,vinegar
+toyo,toyo,noun,soy sauce
+bawang,ahos,noun,garlic
+sibuyas,sibuyas,noun,onion
+kamatis,kamatis,noun,tomato
+patatas,patatas,noun,potato
+talong,tawong,noun,eggplant
+kalabasa,kalabasa,noun,squash
+sitaw,batong,noun,string bean
+kangkong,kangkong,noun,water spinach
+saging,saging,noun,banana
+mangga,mangga,noun,mango
+niyog,lubi,noun,coconut
+pinya,pinya,noun,pineapple
+santol,santol,noun,cotton fruit
+bayabas,bayabas,noun,guava
+papaya,kapayas,noun,papaya
+ubas,ubas,noun,grapes
+kape,kape,noun,coffee
+tsaa,tsa,noun,tea
+tubig,tubig,noun,water
+alak,bino,noun,wine/liquor
+serbesa,serbesa,noun,beer
+kanin,pagkaon,noun,food/meal
+pagkain,pagkaon,noun,food
+almusal,pamahaw,noun,breakfast
+tanghalian,paniudto,noun,lunch
+hapunan,panihapon,noun,dinner
+meryenda,merienda,noun,snack
+ulam,sud-an,noun,viand
+sabaw,sabaw,noun,soup/broth
+kumain,mikaon,verb,ate
+kain,kaon,verb,eat
+uminom,miinom,verb,drank
+inom,inom,verb,drink
+kumakain,nagakaon,verb,eating
+matulog,matulog,verb,to sleep
+tulog,tulog,verb,sleep
+gumising,mata,verb,wake up
+gising,mata,verb,awake
+pumunta,moadto,verb,to go
+punta,adto,verb,go
+pumarito,moari,verb,come here
+halika,dali,verb,come here
+lumakad,molakaw,verb,to walk
+lakad,lakaw,verb,walk
+tumakbo,modagan,verb,to run
+takbo,dagan,verb,run
+umupo,molingkod,verb,to sit
+upo,lingkod,verb,sit
+tumayo,motindog,verb,to stand
+tayo,tindog,verb,stand
+lumangoy,molangoy,verb,to swim
+langoy,langoy,verb,swim
+lumipad,molupad,verb,to fly
+magsalita,mosulti,verb,to speak
+salita,sulti,verb,speak/word
+sabi,ingon,verb,said
+tanong,pangutana,verb,question/ask
+sagot,tubag,verb,answer
+tawag,tawag,verb,call
+tumingin,motan-aw,verb,to look
+tingin,tan-aw,verb,look
+makita,makita,verb,to see
+kita,kita,verb,see
+makinig,maminaw,verb,to listen
+pakinggan,paminaw,verb,listen
+dinig,dungog,verb,hear
+alam,kahibalo,verb,know
+kilala,kaila,verb,acquainted
+gusto,gusto,verb,want/like
+ayaw,ayaw,verb,do not want
+kaya,kaya,verb,able/can
+magbigay,mohatag,verb,to give
+bigay,hatag,verb,give
+kumuha,mokuha,verb,to take
+kuha,kuha,verb,take/get
+dala,dala,verb,bring/carry
+hawak,gunit,verb,hold
+bumili,mopalit,verb,to buy
+bili,palit,verb,buy
+magbenta,mobaligya,verb,to sell
+benta,baligya,verb,sell
+bayad,bayad,verb,pay
+utang,utang,verb,debt/borrow
+magtrabaho,motrabaho,verb,to work
+trabaho,trabaho,noun,work/job
+maglaro,modula,verb,to play
+laro,dula,verb,play/game
+magbasa,mobasa,verb,to read
+basa,basa,verb,read
+magsulat,mosulat,verb,to write
+sulat,sulat,noun,letter/writing
+magluto,magluto,verb,to cook
+luto,luto,verb,cook
+maghugas,manghugas,verb,to wash dishes
+hugas,hugas,verb,wash
+maglaba,manglaba,verb,to do laundry
+labada,labhanan,noun,laundry
+maligo,maligo,verb,to bathe
+ligo,ligo,verb,bathe
+magwalis,magsilhig,verb,to sweep
+linis,limpyo,verb,clean
+buksan,ablihan,verb,open it
+bukas,abli,verb,open
+isara,sirad-an,verb,close it
+sara,sira,verb,closed
+tulak,tulod,verb,push
+hila,guyod,verb,pull
+hanap,pangita,verb,look for
+hintay,hulat,verb,wait
+tulong,tabang,verb,help
+mahal,higugma,verb,love (verb)
+mahal,gugma,noun,love
+ibig,gusto,verb,desire/like
+galit,suko,verb,angry
+iyak,hilak,verb,cry
+tawa,katawa,verb,laugh
+ngiti,pahiyom,verb,smile
+tayo,tubo,verb,grow
+patay,patay,verb,dead/kill
+buhay,buhi,adj,alive
+buhay,kinabuhi,noun,life
+malaki,dako,adj,big
+maliit,gamay,adj,small
+mahaba,taas,adj,long
+maikli,mubo,adj,short
+mataas,taas,adj,tall/high
+mababa,ubos,adj,low
+matangkad,taas,adj,tall (person)
+malapad,lapad,adj,wide
+makitid,sigpit,adj,narrow
+makapal,baga,adj,thick
+manipis,nipis,adj,thin
+mabuti,maayo,adj,good/fine
+masama,daotan,adj,bad/evil
+maganda,gwapa,adj,beautiful (woman)
+maganda,nindot,adj,nice/beautiful
+guwapo,gwapo,adj,handsome
+pangit,bati,adj,ugly
+pangit,pangit,adj,ugly (variant)
+bago,bag-o,adj,new
+luma,daan,adj,old (thing)
+mainit,init,adj,hot
+malamig,bugnaw,adj,cold
+mabilis,paspas,adj,fast
+mabagal,hinay,adj,slow
+mahal,mahal,adj,expensive/dear
+mura,barato,adj,cheap
+masaya,malipayon,adj,happy
+malungkot,masulob-on,adj,sad
+gutom,gutom,adj,hungry
+uhaw,uhaw,adj,thirsty
+busog,busog,adj,full (satiated)
+pagod,kapoy,adj,tired
+antok,katulgon,adj,sleepy
+malusog,himsog,adj,healthy
+maysakit,masakiton,adj,sick
+malakas,kusgan,adj,strong
+mahina,luya,adj,weak
+matalino,utokan,adj,smart
+tanga,buang,adj,foolish
+tahimik,hilom,adj,quiet
+maingay,saba,adj,noisy
+malinis,hinlo,adj,clean
+madumi,hugaw,adj,dirty
+madali,sayon,adj,easy
+mahirap,lisod,adj,difficult
+mabigat,bug-at,adj,heavy
+magaan,gaan,adj,light (weight)
+puno,puno,adj,full
+mayaman,datu,adj,rich
+mahirap,pobre,adj,poor
+tuyo,uga,adj,dry
+matamis,tam-is,adj,sweet
+maasim,aslom,adj,sour
+maalat,parat,adj,salty
+mapait,pait,adj,bitter
+maanghang,halang,adj,spicy
+masarap,lami,adj,delicious
+matabang,tabang,adj,bland
+bilog,lingin,adj,round
+tuwid,tul-id,adj,straight
+baluktot,baliko,adj,crooked
+malambot,humok,adj,soft
+matigas,gahi,adj,hard
+totoo,tinuod,adj,true
+mali,sayop,adj,wrong
+tama,husto,adj,correct
+handa,andam,adj,ready
+tapos,human,adj,finished
+sakit,sakit,noun,pain/illness
+lakas,kusog,noun,strength
+takot,kahadlok,noun,fear
+galak,kalipay,noun,joy
+araw,adlaw,noun,day/sun
+gabi,gabii,noun,night
+umaga,buntag,noun,morning
+tanghali,udto,noun,noon
+hapon,hapon,noun,afternoon
+gabi,kagabhion,noun,nighttime
+madaling-araw,kadlawon,noun,dawn
+ngayon,karon,adv,now/today
+kanina,ganina,adv,earlier
+mamaya,unya,adv,later
+bukas,ugma,adv,tomorrow
+kahapon,gahapon,adv,yesterday
+kamakalawa,kagahapon,adv,day before yesterday
+linggo,semana,noun,week
+buwan,bulan,noun,month
+taon,tuig,noun,year
+oras,oras,noun,hour/time
+minuto,minuto,noun,minute
+segundo,segundo,noun,second
+panahon,panahon,noun,time/weather
+lunes,lunes,noun,Monday
+martes,martes,noun,Tuesday
+miyerkoles,miyerkules,noun,Wednesday
+huwebes,huwebes,noun,Thursday
+biyernes,biyernes,noun,Friday
+sabado,sabado,noun,Saturday
+linggo,dominggo,noun,Sunday
+enero,enero,noun,January
+pebrero,pebrero,noun,February
+marso,marso,noun,March
+abril,abril,noun,April
+mayo,mayo,noun,May
+hunyo,hunyo,noun,June
+hulyo,hulyo,noun,July
+agosto,agosto,noun,August
+setyembre,septyembre,noun,September
+oktubre,oktubre,noun,October
+nobyembre,nobyembre,noun,November
+disyembre,disyembre,noun,December
+bahay,balay,noun,house
+tahanan,puloy-anan,noun,home
+palengke,merkado,noun,market
+tindahan,tindahan,noun,store
+paaralan,eskwelahan,noun,school
+simbahan,simbahan,noun,church
+ospital,ospital,noun,hospital
+botika,botika,noun,pharmacy
+opisina,opisina,noun,office
+kalsada,dalan,noun,road/street
+daan,dalan,noun,way/road
+tulay,taytayan,noun,bridge
+lungsod,siyudad,noun,city
+bayan,lungsod,noun,town
+baryo,baryo,noun,village
+probinsya,probinsya,noun,province
+bansa,nasod,noun,country/nation
+bundok,bukid,noun,mountain
+burol,bungtod,noun,hill
+dagat,dagat,noun,sea
+ilog,suba,noun,river
+sapa,sapa,noun,creek
+lawa,linaw,noun,lake
+talon,busay,noun,waterfall
+tabing-dagat,baybayon,noun,beach
+bukid,uma,noun,farm/field
+gubat,lasang,noun,forest
+kusina,kusina,noun,kitchen
+kwarto,kwarto,noun,room
+silid,lawak,noun,room
+banyo,banyo,noun,bathroom
+kubeta,kasilyas,noun,toilet
+sala,sala,noun,living room
+bakuran,nataran,noun,yard
+hardin,tanaman,noun,garden
+bintana,bintana,noun,window
+pinto,pultahan,noun,door
+hagdan,hagdanan,noun,stairs
+bubong,atop,noun,roof
+dingding,bongbong,noun,wall
+sahig,salog,noun,floor
+haligi,haligi,noun,post/pillar
+aso,iro,noun,dog
+pusa,iring,noun,cat
+kabayo,kabayo,noun,horse
+kalabaw,kabaw,noun,carabao
+kambing,kanding,noun,goat
+tupa,karnero,noun,sheep
+ibon,langgam,noun,bird
+pato,itik,noun,duck
+bibe,bibi,noun,duckling
+tandang,sunoy,noun,rooster
+inahin,himungaan,noun,hen
+daga,ilaga,noun,rat/mouse
+langgam,hulmigas,noun,ant
+lamok,lamok,noun,mosquito
+langaw,langaw,noun,fly (insect)
+ipis,uk-ok,noun,cockroach
+gagamba,lawa-lawa,noun,spider
+paruparo,alibangbang,noun,butterfly
+bubuyog,buyog,noun,bee
+ahas,bitin,noun,snake
+butiki,tiki,noun,gecko/lizard
+palaka,baki,noun,frog
+alimango,kasag,noun,crab
+hipon,pasayan,noun,shrimp
+pusit,nokos,noun,squid
+pagong,bao,noun,turtle
+unggoy,unggoy,noun,monkey
+baboy-ramo,baboy-ihalas,noun,wild pig
+bituin,bituon,noun,star
+langit,langit,noun,sky/heaven
+ulap,panganod,noun,cloud
+ulan,ulan,noun,rain
+hangin,hangin,noun,wind
+bagyo,bagyo,noun,storm/typhoon
+kidlat,kilat,noun,lightning
+kulog,dalugdog,noun,thunder
+apoy,kalayo,noun,fire
+usok,aso,noun,smoke
+abo,abo,noun,ash
+lupa,yuta,noun,earth/soil
+bato,bato,noun,stone/rock
+buhangin,balas,noun,sand
+putik,lapok,noun,mud
+alikabok,abog,noun,dust
+kahoy,kahoy,noun,wood/tree
+puno,kahoy,noun,tree
+sanga,sanga,noun,branch
+ugat,gamot,noun,root
+dahon,dahon,noun,leaf
+bulaklak,bulak,noun,flower
+bunga,bunga,noun,fruit/harvest
+buto,liso,noun,seed
+damo,sagbot,noun,grass/weed
+mundo,kalibotan,noun,world
+kalikasan,kinaiyahan,noun,nature
+mesa,lamesa,noun,table
+silya,lingkuranan,noun,chair
+upuan,lingkuranan,noun,seat
+kama,katre,noun,bed
+higaan,higdaanan,noun,bed/bedding
+unan,unlan,noun,pillow
+kumot,habol,noun,blanket
+banig,banig,noun,sleeping mat
+aparador,aparador,noun,cabinet
+plato,plato,noun,plate
+tasa,tasa,noun,cup
+baso,baso,noun,drinking glass
+kutsara,kutsara,noun,spoon
+tinidor,tinidor,noun,fork
+kutsilyo,kutsilyo,noun,knife
+kaldero,kaldero,noun,pot
+kawali,kalaha,noun,frying pan
+sandok,sandok,noun,ladle
+tabo,tabo,noun,water dipper
+timba,timba,noun,pail/bucket
+walis,silhig,noun,broom
+basahan,trapo,noun,rag
+sabon,sabon,noun,soap
+tuwalya,tualya,noun,towel
+sipilyo,sipilyo,noun,toothbrush
+suklay,sudlay,noun,comb
+salamin,salamin,noun,mirror/glass
+orasan,relo,noun,clock/watch
+relo,relo,noun,watch
+susi,yawi,noun,key
+kandado,kandado,noun,padlock
+ilaw,suga,noun,light/lamp
+kandila,kandila,noun,candle
+posporo,posporo,noun,matches
+kutson,kutson,noun,mattress
+kurtina,kurtina,noun,curtain
+damit,sinina,noun,clothes
+kamiseta,kamiseta,noun,shirt
+pantalon,karsones,noun,pants
+sapatos,sapatos,noun,shoes
+tsinelas,tsinelas,noun,slippers
+medyas,medyas,noun,socks
+sombrero,kalo,noun,hat
+sumbrero,sombrero,noun,hat (variant)
+bestida,bisti,noun,dress
+palda,palda,noun,skirt
+sinturon,bakos,noun,belt
+bulsa,bulsa,noun,pocket
+alahas,alahas,noun,jewelry
+singsing,singsing,noun,ring
+kwintas,kwentas,noun,necklace
+hikaw,ariyos,noun,earring
+pulseras,pulseras,noun,bracelet
+salamin sa mata,antipara,noun,eyeglasses
+pula,pula,adj,red
+puti,puti,adj,white
+itim,itom,adj,black
+asul,asul,adj,blue
+bughaw,pughaw,adj,blue (deep)
+berde,berde,adj,green
+lunti,lunhaw,adj,green (verdant)
+dilaw,dalag,adj,yellow
+kahel,kahel,adj,orange
+rosas,pink,adj,pink
+lila,tapul,adj,violet
+kayumanggi,kayumanggi,adj,brown-skinned
+kulay-abo,abohon,adj,gray
+ginto,bulawan,noun,gold
+pilak,plata,noun,silver
+kulay,kolor,noun,color
+pera,kwarta,noun,money
+salapi,kwarta,noun,money/cash
+barya,sinsilyo,noun,coins
+piso,piso,noun,peso
+sentimo,sentabo,noun,centavo
+sweldo,suweldo,noun,salary
+presyo,presyo,noun,price
+gastos,gasto,noun,expense
+tubo,ganansya,noun,profit
+buwis,buhis,noun,tax
+bangko,bangko,noun,bank
+guro,magtutudlo,noun,teacher
+estudyante,estudyante,noun,student
+doktor,doktor,noun,doctor
+nars,nars,noun,nurse
+pulis,pulis,noun,police
+bumbero,bombero,noun,firefighter
+magsasaka,mag-uuma,noun,farmer
+mangingisda,mananagat,noun,fisherman
+karpintero,panday,noun,carpenter
+inhinyero,inhinyero,noun,engineer
+abogado,abogado,noun,lawyer
+tsuper,drayber,noun,driver
+kusinero,kusinero,noun,cook/chef
+katulong,sulugoon,noun,helper/maid
+tindera,tindera,noun,vendor
+mangangalakal,negosyante,noun,businessman
+pari,pari,noun,priest
+pastor,pastor,noun,pastor
+sundalo,sundalo,noun,soldier
+presidente,presidente,noun,president
+alkalde,mayor,noun,mayor
+kotse,awto,noun,car
+sasakyan,sakyanan,noun,vehicle
+dyip,dyip,noun,jeepney
+bus,bus,noun,bus
+traysikel,traysikol,noun,tricycle
+motor,motor,noun,motorcycle
+bisikleta,bisikleta,noun,bicycle
+bangka,bangka,noun,boat
+barko,barko,noun,ship
+eroplano,eroplano,noun,airplane
+tren,tren,noun,train
+gulong,ligid,noun,wheel/tire
+makina,makina,noun,engine/machine
+gasolina,gasolina,noun,gasoline
+paliparan,tugpahanan,noun,airport
+pantalan,pantalan,noun,pier/port
+istasyon,estasyon,noun,station
+paradahan,parkanan,noun,parking
+libro,libro,noun,book
+papel,papel,noun,paper
+lapis,lapis,noun,pencil
+bolpen,bolpen,noun,ballpen
+kwaderno,kwaderno,noun,notebook
+pahina,panid,noun,page
+gunting,gunting,noun,scissors
+pandikit,pilit,noun,glue
+kompyuter,kompyuter,noun,computer
+selpon,selpon,noun,cellphone
+telepono,telepono,noun,telephone
+telebisyon,telebisyon,noun,television
+radyo,radyo,noun,radio
+kamera,kamera,noun,camera
+pahayagan,mantalaan,noun,newspaper
+larawan,litrato,noun,photo/picture
+pintura,pintura,noun,paint
+tugtog,honi,noun,music/song
+awit,kanta,noun,song
+sayaw,sayaw,noun,dance
+kwento,sugilanon,noun,story
+balita,balita,noun,news
+salita,pulong,noun,word
+wika,pinulongan,noun,language
+pangalan,ngalan,noun,name
+edad,edad,noun,age
+kaarawan,adlawng natawhan,noun,birthday
+kasal,kasal,noun,wedding
+libing,lubong,noun,burial
+pista,pista,noun,fiesta/feast
+handaan,kombira,noun,party/feast
+palabas,salida,noun,show/movie
+sine,sine,noun,cinema/movie
+oo,oo,intj,yes
+opo,oo,intj,yes (polite)
+hindi,dili,adv,no/not
+hindi,wala,adv,none/not (existence)
+wala,wala,adv,none/nothing
+mayroon,naa,verb,there is
+meron,naa,verb,there is
+huwag,ayaw,adv,do not
+siguro,tingali,adv,maybe
+siguro,basin,adv,perhaps
+baka,basin,adv,might/maybe
+tiyak,sigurado,adv,sure/certain
+talaga,tinuod,adv,really
+sana,unta,part,hopefully
+po,po,part,polite particle
+ho,ho,part,polite particle (variant)
+at,ug,conj,and
+o,o,conj,or
+pero,pero,conj,but
+ngunit,apan,conj,but/however
+kaya,mao,conj,so/therefore
+dahil,tungod,conj,because
+kasi,kay,conj,because
+kung,kung,conj,if
+kapag,kon,conj,when/if
+habang,samtang,conj,while
+bago,una,conj,before
+pagkatapos,human,conj,after
+para,para,prep,for
+sa,sa,prep,to/at/in
+mula,gikan,prep,from
+hanggang,hangtod,prep,until
+tungkol,mahitungod,prep,about
+laban,batok,prep,against
+kasama,uban,prep,with/together
+walang,walay,adv,without
+din,usab,adv,also/too
+rin,usab,adv,also (variant)
+lang,lang,adv,only/just
+lamang,lamang,adv,only
+daw,kuno,adv,reportedly
+raw,kuno,adv,reportedly (variant)
+na,na,part,already
+pa,pa,part,still/yet
+nga,gyud,part,indeed/really
+naman,pud,part,also/again
+kaya,man,part,question softener
+muna,una,adv,first/for now
+agad,dayon,adv,immediately
+kaagad,dayon,adv,at once
+napaka,kaayo,adv,very (prefix)
+sobra,sobra,adv,too much
+masyado,sobra,adv,too/excessively
+medyo,medyo,adv,somewhat
+konti,gamay,adv,a little
+marami,daghan,adj,many/plenty
+kaunti,diyutay,adj,few/little
+lahat,tanan,pron,all/everyone
+iba,lahi,adj,other/different
+pareho,pareho,adj,same/alike
+bawat,matag,adj,each/every
+buo,tibuok,adj,whole/entire
+ulit,balik,adv,again
+palagi,permi,adv,always
+lagi,kanunay,adv,always/often
+madalas,kanunay,adv,frequently
+minsan,usahay,adv,sometimes
+paminsan-minsan,panagsa,adv,occasionally
+kailanman,bisan kanus-a,adv,ever/anytime
+noon,kaniadto,adv,before/long ago
+dati,kaniadto,adv,formerly
+mabilis,dali,adv,quickly
+dahan-dahan,hinay-hinay,adv,slowly/carefully
+bigla,kalit,adv,suddenly
+malapit,duol,adj,near
+malayo,layo,adj,far
+itaas,taas,noun,top/up
+ibaba,ubos,noun,bottom/down
+gitna,tunga,noun,middle/center
+tabi,kilid,noun,side/beside
+harap,atubangan,noun,front
+likod,luyo,noun,back/behind
+loob,sulod,noun,inside
+labas,gawas,noun,outside
+kaliwa,wala,noun,left
+kanan,tuo,noun,right
+ibabaw,ibabaw,prep,on top of
+ilalim,ilawom,prep,under/below
+pagitan,taliwala,prep,between
+paligid,palibot,noun,surroundings
+hilaga,amihanan,noun,north
+timog,habagatan,noun,south
+silangan,sidlakan,noun,east
+kanluran,kasadpan,noun,west
+umagang,buntagon,adj,morningtime
+tag-init,ting-init,noun,summer/dry season
+tag-ulan,ting-ulan,noun,rainy season
+init,kainit,noun,heat
+lamig,katugnaw,noun,cold/coldness
+basa,kaumog,noun,dampness
+liwanag,kahayag,noun,brightness/light
+dilim,kangitngit,noun,darkness
+anino,landong,noun,shadow
+tunog,tingog,noun,sound/voice
+boses,tingog,noun,voice
+amoy,baho,noun,smell/odor
+lasa,lami,noun,taste
+hipo,hikap,noun,touch
+gamot,tambal,noun,medicine
+lagnat,hilanat,noun,fever
+ubo,ubo,noun,cough
+sipon,sip-on,noun,cold/runny nose
+sugat,samad,noun,wound
+pasa,pangos,noun,bruise
+peklat,uwat,noun,scar
+buntis,mabdos,adj,pregnant
+kapansanan,kakulangan,noun,disability
+tulog,katulgon,noun,sleep/sleepiness
+panaginip,damgo,noun,dream
+pahinga,pahulay,noun,rest
+aral,tuon,noun,study/lesson
+turo,tudlo,verb,teach/point
+matuto,makakat-on,verb,to learn
+isip,huna-huna,noun,mind/thought
+alaala,handumanan,noun,memory
+pag-asa,paglaom,noun,hope
+pangarap,damgo,noun,dream/ambition
+katotohanan,kamatuoran,noun,truth
+kasinungalingan,bakak,noun,lie/falsehood
+katarungan,hustisya,noun,justice
+kalayaan,kagawasan,noun,freedom
+kapayapaan,kalinaw,noun,peace
+digmaan,gubat,noun,war
+kaguluhan,kagubot,noun,chaos/trouble
+tulungan,tinabangay,noun,cooperation
+pagkakaibigan,panaghigala,noun,friendship
+pagmamahal,gugma,noun,love/affection
+galit,kasuko,noun,anger
+lungkot,kasubo,noun,sadness
+saya,kalipay,noun,happiness
+hiya,kaulaw,noun,shame/shyness
+pagod,kakapoy,noun,tiredness
+gutom,kagutom,noun,hunger
+kahinaan,kaluya,noun,weakness
+katapangan,kaisog,noun,bravery
+kaduwagan,katalaw,noun,cowardice
+tiyaga,paningkamot,noun,perseverance
+tiwala,pagsalig,noun,trust
+utang na loob,utang kabubut-on,noun,debt of gratitude
+kabutihan,kaayo,noun,goodness
+kasamaan,kadaotan,noun,evil
+init ng ulo,kainit sa ulo,noun,temper
+Diyos,Ginoo,noun,God
+impyerno,impyerno,noun,hell
+kaluluwa,kalag,noun,soul
+espiritu,espiritu,noun,spirit
+anghel,anghel,noun,angel
+santo,santo,noun,saint
+dasal,ampo,noun,prayer
+pananampalataya,pagtuo,noun,faith
+simba,simba,verb,attend mass
+biyaya,grasya,noun,blessing/grace
+kasalanan,sala,noun,sin
+awa,kalooy,noun,mercy/pity
+biyaya,panalangin,noun,blessing
+hatinggabi,tungang gabii,noun,midnight
+bukang-liwayway,banagbanag,noun,daybreak
+takipsilim,kilumkilom,noun,dusk
+kanina,kaganina,adv,a while ago
+ngayon-ngayon,karon-karon,adv,any moment now
+kaninang umaga,ganihang buntag,adv,this morning
+kagabi,gabii,adv,last night
+sa susunod,sa sunod,adv,next time
+sa wakas,sa katapusan,adv,finally
+sandali,kadiyot,noun,moment
+saglit,kadali,noun,short while
+laging,kanunayng,adv,ever
+number,numero,noun,number
+gitna,sentro,noun,center
+dulo,tumoy,noun,tip/end
+gilid,ngilit,noun,edge
+sulok,eskina,noun,corner
+butas,lungag,noun,hole
+guhit,linya,noun,line
+tuldok,tuldok,noun,dot/period
+hugis,porma,noun,shape
+laki,gidak-on,noun,size
+timbang,timbang,noun,weight
+taas,gitas-on,noun,height
+lalim,giladmon,noun,depth
+layo,gilay-on,noun,distance
+bilang,ihap,noun,count
+sukat,sukod,noun,measure
+dami,gidaghanon,noun,quantity
+kalahati,tunga,noun,half portion
+dose,dosena,noun,dozen
+piraso,tipik,noun,piece
+kapiraso,gamay nga tipik,noun,small piece
+grupo,pundok,noun,group
+tumpok,pundok,noun,pile/heap
+hilera,linya,noun,row/line
+hanay,laray,noun,column/rank
+simula,sinugdanan,noun,beginning
+wakas,katapusan,noun,end
+kalagitnaan,kinatung-an,noun,midpoint
+tapat,atbang,noun,opposite side
+palapit,paduol,adv,approaching
+palayo,palayo,adv,away
+pataas,pasaka,adv,upward
+pababa,paubos,adv,downward
+pasulong,pauswag,adv,forward
+paurong,paatras,adv,backward
+patuloy,padayon,verb,continue
+tigil,hunong,verb,stop
+simula,sugod,verb,begin
+balik,balik,verb,return
+alis,biya,verb,leave/depart
+dating,abot,verb,arrive
+pasok,sulod,verb,enter
+akyat,saka,verb,climb up
+baba,kanaog,verb,go down
+lipat,balhin,verb,transfer/move
+galaw,lihok,verb,move
+tigil,puwesto,verb,stay/position
+tapos,tapos,verb,finish
+subok,sulay,verb,try/test
+gawa,buhat,verb,do/make
+gawa,himo,verb,make/create
+ayos,ayo,verb,fix/repair
+sira,guba,verb,broken
+putol,putol,verb,cut
+sunog,sunog,verb,burn
+lipol,puo,verb,exterminate
+tanim,tanom,verb,plant
+ani,ani,verb,harvest
+saka,uma,verb,farm
+huli,dakop,verb,catch
+bukas,sindi,verb,turn on/light
+init,init,verb,heat up
+lamig,bugnaw,verb,cool
+haplos,haplos,verb,caress
+higop,higop,verb,sip
+nguya,usap,verb,chew
+lunok,tulon,verb,swallow
+dura,luwa,verb,spit
+hinga,ginhawa,verb,breathe
+buga,buga,verb,blow/spew
+sipol,taghoy,verb,whistle
+sigaw,singgit,verb,shout
+bulong,hunghong,verb,whisper
+kanta,kanta,verb,sing
+palakpak,pakpak,verb,clap
+yakap,gakos,verb,embrace
+halik,halok,verb,kiss
+kamay,kumusta,verb,shake hands
+tulak,tukmod,verb,shove
+sipa,sipa,verb,kick
+suntok,sumbag,verb,punch
+sampal,sagpa,verb,slap
+tulog,tuog,verb,doze
+gising,pukaw,verb,awaken
