@@ -3,6 +3,7 @@ import { KeyboardAvoidingView, Platform, SafeAreaView, StyleSheet, Text, TextInp
 import { translate } from '../../src/engine/engine';
 import type { Direction, TranslationResult } from '../../src/engine/types';
 import { useDictionary } from '../../src/data/useDictionary';
+import { UserRepo } from '../../src/data/userRepo';
 import { DirectionToggle } from '../../src/ui/DirectionToggle';
 import { ResultCard } from '../../src/ui/ResultCard';
 import { theme } from '../../src/ui/theme';
@@ -13,6 +14,12 @@ export default function TranslateScreen() {
   const [text, setText] = useState('');
   const [result, setResult] = useState<TranslationResult | null>(null);
   const [suggestions, setSuggestions] = useState<string[]>([]);
+  const [repo, setRepo] = useState<UserRepo | null>(null);
+  const [isFav, setIsFav] = useState(false);
+
+  useEffect(() => {
+    UserRepo.create().then(setRepo);
+  }, []);
 
   useEffect(() => {
     let cancelled = false;
@@ -39,6 +46,21 @@ export default function TranslateScreen() {
     };
   }, [text, direction, dict]);
 
+  useEffect(() => {
+    if (!repo || !result || result.output === '') return;
+    let cancelled = false;
+    const handle = setTimeout(() => {
+      repo.addHistory({ input: result.input, output: result.output, direction: result.direction, method: result.method });
+    }, 1500);
+    repo.isFavorite(result.input, result.direction).then((v) => {
+      if (!cancelled) setIsFav(v);
+    });
+    return () => {
+      cancelled = true;
+      clearTimeout(handle);
+    };
+  }, [repo, result]);
+
   return (
     <SafeAreaView style={styles.container}>
       <KeyboardAvoidingView behavior={Platform.OS === 'ios' ? 'padding' : undefined} style={{ flex: 1 }}>
@@ -53,7 +75,17 @@ export default function TranslateScreen() {
           onChangeText={setText}
           autoCorrect={false}
         />
-        {result && <ResultCard result={result} suggestions={suggestions} />}
+        {result && (
+          <ResultCard
+            result={result}
+            suggestions={suggestions}
+            isFavorite={isFav}
+            onToggleFavorite={async () => {
+              if (!repo || !result) return;
+              setIsFav(await repo.toggleFavorite(result.input, result.output, result.direction));
+            }}
+          />
+        )}
       </KeyboardAvoidingView>
     </SafeAreaView>
   );
