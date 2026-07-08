@@ -1,10 +1,54 @@
-import { SafeAreaView, Text, StyleSheet } from 'react-native';
+import { useEffect, useState } from 'react';
+import { KeyboardAvoidingView, Platform, SafeAreaView, StyleSheet, Text, TextInput } from 'react-native';
+import { translate } from '../../src/engine/engine';
+import type { Direction, TranslationResult } from '../../src/engine/types';
+import { useDictionary } from '../../src/data/useDictionary';
+import { DirectionToggle } from '../../src/ui/DirectionToggle';
+import { ResultCard } from '../../src/ui/ResultCard';
 import { theme } from '../../src/ui/theme';
 
-export default function Screen() {
+export default function TranslateScreen() {
+  const dict = useDictionary();
+  const [direction, setDirection] = useState<Direction>('tl-ceb');
+  const [text, setText] = useState('');
+  const [result, setResult] = useState<TranslationResult | null>(null);
+  const [suggestions, setSuggestions] = useState<string[]>([]);
+
+  useEffect(() => {
+    const handle = setTimeout(async () => {
+      if (text.trim() === '') {
+        setResult(null);
+        setSuggestions([]);
+        return;
+      }
+      const r = await translate(text, direction, dict);
+      setResult(r);
+      // Offer near-matches only for a single unknown word.
+      if (r.method === 'word-by-word' && r.tokens.length === 1 && r.hasMisses) {
+        setSuggestions(await dict.findSuggestions(r.tokens[0].source.slice(0, 3), direction));
+      } else {
+        setSuggestions([]);
+      }
+    }, 250);
+    return () => clearTimeout(handle);
+  }, [text, direction, dict]);
+
   return (
     <SafeAreaView style={styles.container}>
-      <Text style={styles.title}>Translate</Text>
+      <KeyboardAvoidingView behavior={Platform.OS === 'ios' ? 'padding' : undefined} style={{ flex: 1 }}>
+        <Text style={styles.title}>Translate</Text>
+        <DirectionToggle value={direction} onChange={setDirection} />
+        <TextInput
+          style={styles.input}
+          multiline
+          placeholder={direction === 'tl-ceb' ? 'Isulat ang Tagalog dito…' : 'Isulat ang Bisaya dinhi…'}
+          placeholderTextColor={theme.colors.muted}
+          value={text}
+          onChangeText={setText}
+          autoCorrect={false}
+        />
+        {result && <ResultCard result={result} suggestions={suggestions} />}
+      </KeyboardAvoidingView>
     </SafeAreaView>
   );
 }
@@ -12,4 +56,13 @@ export default function Screen() {
 const styles = StyleSheet.create({
   container: { flex: 1, backgroundColor: theme.colors.bg, padding: 16 },
   title: { fontSize: 28, fontWeight: '700', color: theme.colors.text, marginTop: 8 },
+  input: {
+    backgroundColor: theme.colors.card,
+    borderRadius: 16,
+    padding: 16,
+    fontSize: 18,
+    minHeight: 110,
+    textAlignVertical: 'top',
+    color: theme.colors.text,
+  },
 });
