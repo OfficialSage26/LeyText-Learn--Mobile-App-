@@ -3,6 +3,7 @@ import * as Clipboard from 'expo-clipboard';
 import { Pressable, StyleSheet, Text, View } from 'react-native';
 import type { TranslationResult } from '../engine/types';
 import { METHOD_LABELS } from './labels';
+import { SpeakButton } from './SpeakButton';
 import { theme } from './theme';
 
 export function ResultCard({
@@ -42,6 +43,7 @@ export function ResultCard({
         <Text style={styles.note}>Did you mean: {suggestions.join(', ')}?</Text>
       )}
       <View style={styles.actions}>
+        <SpeakButton text={result.output} />
         <Pressable
           accessibilityLabel="Copy translation"
           onPress={() => Clipboard.setStringAsync(result.output)}

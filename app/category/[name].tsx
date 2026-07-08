@@ -4,6 +4,7 @@ import { FlatList, Pressable, StyleSheet, Text, View } from 'react-native';
 import type { PhraseEntry } from '../../src/data/dictionary';
 import { useDictionary } from '../../src/data/useDictionary';
 import { CATEGORY_META } from '../../src/ui/categories';
+import { SpeakButton } from '../../src/ui/SpeakButton';
 import { theme } from '../../src/ui/theme';
 
 export default function CategoryScreen() {
@@ -39,6 +40,11 @@ export default function CategoryScreen() {
             <Text style={styles.ceb}>{item.ceb}</Text>
             {expanded === item.id && item.pron && (
               <Text style={styles.pron}>{'\uD83D\uDD09 '}{item.pron}</Text>
+            )}
+            {expanded === item.id && (
+              <View style={{ flexDirection: 'row', marginTop: 8 }}>
+                <SpeakButton text={item.ceb} />
+              </View>
             )}
           </Pressable>
         )}
