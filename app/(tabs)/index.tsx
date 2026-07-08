@@ -15,6 +15,7 @@ export default function TranslateScreen() {
   const [suggestions, setSuggestions] = useState<string[]>([]);
 
   useEffect(() => {
+    let cancelled = false;
     const handle = setTimeout(async () => {
       if (text.trim() === '') {
         setResult(null);
@@ -22,15 +23,20 @@ export default function TranslateScreen() {
         return;
       }
       const r = await translate(text, direction, dict);
+      if (cancelled) return;
       setResult(r);
       // Offer near-matches only for a single unknown word.
       if (r.method === 'word-by-word' && r.tokens.length === 1 && r.hasMisses) {
-        setSuggestions(await dict.findSuggestions(r.tokens[0].source.slice(0, 3), direction));
+        const s = await dict.findSuggestions(r.tokens[0].source.slice(0, 3), direction);
+        if (!cancelled) setSuggestions(s);
       } else {
         setSuggestions([]);
       }
     }, 250);
-    return () => clearTimeout(handle);
+    return () => {
+      cancelled = true;
+      clearTimeout(handle);
+    };
   }, [text, direction, dict]);
 
   return (
@@ -41,7 +47,7 @@ export default function TranslateScreen() {
         <TextInput
           style={styles.input}
           multiline
-          placeholder={direction === 'tl-ceb' ? 'Isulat ang Tagalog dito…' : 'Isulat ang Bisaya dinhi…'}
+          placeholder={direction === 'tl-ceb' ? 'Isulat ang Tagalog dito\u2026' : 'Isulat ang Bisaya dinhi\u2026'}
           placeholderTextColor={theme.colors.muted}
           value={text}
           onChangeText={setText}
