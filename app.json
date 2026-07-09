@@ -34,7 +34,13 @@
         }
       ],
       "expo-sqlite",
-      "expo-asset"
+      "expo-asset",
+      [
+        "expo-speech-recognition",
+        {
+          "microphonePermission": "Allow LeyText Learn to use the microphone for voice input."
+        }
+      ]
     ],
     "experiments": {
       "typedRoutes": true,

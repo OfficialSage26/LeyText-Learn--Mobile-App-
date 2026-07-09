@@ -6,6 +6,7 @@ import { getSettings } from '../../src/data/settings';
 import { useDictionary } from '../../src/data/useDictionary';
 import { UserRepo } from '../../src/data/userRepo';
 import { DirectionToggle } from '../../src/ui/DirectionToggle';
+import { MicButton } from '../../src/ui/MicButton';
 import { ResultCard } from '../../src/ui/ResultCard';
 import { theme } from '../../src/ui/theme';
 
@@ -86,6 +87,7 @@ export default function TranslateScreen() {
           onChangeText={setText}
           autoCorrect={false}
         />
+        <MicButton enabled={direction === 'tl-ceb'} onTranscript={setText} />
         {result && (
           <ResultCard
             result={result}
