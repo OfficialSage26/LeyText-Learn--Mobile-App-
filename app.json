@@ -15,7 +15,7 @@
       }
     },
     "android": {
-      "package": "com.johnn2323.leytextlearn",
+      "package": "com.ashly.leytextlearn",
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/images/android-icon-foreground.png",
