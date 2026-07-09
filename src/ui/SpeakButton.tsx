@@ -26,15 +26,20 @@ export function SpeakButton({ text }: { text: string }) {
 
   const speak = async () => {
     const settings = await getSettings();
+    const startSpeaking = () => {
+      Speech.stop();
+      Speech.speak(text, { language: 'fil-PH', rate: settings.ttsRate });
+    };
     if (!settings.bisayaVoiceNoticeShown) {
+      await saveSettings({ bisayaVoiceNoticeShown: true });
       Alert.alert(
         'About audio',
         'Audio uses the Filipino (Tagalog) voice for both languages, so Bisaya pronunciation is approximate.',
+        [{ text: 'OK', onPress: startSpeaking }],
       );
-      await saveSettings({ bisayaVoiceNoticeShown: true });
+      return;
     }
-    Speech.stop();
-    Speech.speak(text, { language: 'fil-PH', rate: settings.ttsRate });
+    startSpeaking();
   };
 
   return (
