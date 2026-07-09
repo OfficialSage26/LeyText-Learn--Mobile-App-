@@ -23,9 +23,10 @@ export async function getSettings(): Promise<Settings> {
 let writeQueue: Promise<void> = Promise.resolve();
 
 export function saveSettings(patch: Partial<Settings>): Promise<void> {
-  writeQueue = writeQueue.then(async () => {
+  const next = writeQueue.then(async () => {
     const current = await getSettings();
     await AsyncStorage.setItem(KEY, JSON.stringify({ ...current, ...patch }));
   });
-  return writeQueue;
+  writeQueue = next.catch(() => {});
+  return next;
 }
