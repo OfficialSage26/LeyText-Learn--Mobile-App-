@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { KeyboardAvoidingView, Platform, SafeAreaView, StyleSheet, Text, TextInput } from 'react-native';
 import { translate } from '../../src/engine/engine';
 import type { Direction, TranslationResult } from '../../src/engine/types';
+import { getSettings } from '../../src/data/settings';
 import { useDictionary } from '../../src/data/useDictionary';
 import { UserRepo } from '../../src/data/userRepo';
 import { DirectionToggle } from '../../src/ui/DirectionToggle';
@@ -19,6 +20,16 @@ export default function TranslateScreen() {
 
   useEffect(() => {
     UserRepo.create().then(setRepo);
+  }, []);
+
+  useEffect(() => {
+    let cancelled = false;
+    getSettings().then((s) => {
+      if (!cancelled) setDirection(s.defaultDirection);
+    });
+    return () => {
+      cancelled = true;
+    };
   }, []);
 
   useEffect(() => {
