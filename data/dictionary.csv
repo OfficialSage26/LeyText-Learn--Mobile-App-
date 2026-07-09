@@ -178,7 +178,7 @@ bawang,ahos,noun,garlic
 sibuyas,sibuyas,noun,onion
 kamatis,kamatis,noun,tomato
 patatas,patatas,noun,potato
-talong,tawong,noun,eggplant
+talong,talong,noun,eggplant
 kalabasa,kalabasa,noun,squash
 sitaw,batong,noun,string bean
 kangkong,kangkong,noun,water spinach
@@ -195,7 +195,6 @@ tsaa,tsa,noun,tea
 tubig,tubig,noun,water
 alak,bino,noun,wine/liquor
 serbesa,serbesa,noun,beer
-kanin,pagkaon,noun,food/meal
 pagkain,pagkaon,noun,food
 almusal,pamahaw,noun,breakfast
 tanghalian,paniudto,noun,lunch
@@ -352,7 +351,7 @@ maalat,parat,adj,salty
 mapait,pait,adj,bitter
 maanghang,halang,adj,spicy
 masarap,lami,adj,delicious
-matabang,tabang,adj,bland
+matabang,tab-ang,adj,bland
 bilog,lingin,adj,round
 tuwid,tul-id,adj,straight
 baluktot,baliko,adj,crooked

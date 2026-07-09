@@ -6,7 +6,7 @@ describe('normalizeText', () => {
   });
   test('strips punctuation', () => {
     expect(normalizeText('Saan ang palengke?')).toBe('saan ang palengke');
-    expect(normalizeText('¡Salamat, po!')).toBe('salamat po');
+    expect(normalizeText('\u00A1Salamat, po!')).toBe('salamat po');
   });
   test('collapses internal whitespace', () => {
     expect(normalizeText('magandang    umaga')).toBe('magandang umaga');

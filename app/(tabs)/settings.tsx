@@ -70,8 +70,8 @@ export default function SettingsScreen() {
             Word-by-word results are approximate; exact matches come from a curated phrasebook.
           </Text>
           <Text style={styles.aboutText}>
-            Dictionary data compiled from community sources including Wiktionary (CC BY-SA) and
-            Tatoeba (CC BY), with original curated content. Corrections welcome.
+            Dictionary and phrase data curated for this app by its author. Corrections and
+            additions are welcome.
           </Text>
         </View>
       </ScrollView>

@@ -48,7 +48,7 @@ export function MicButton({ onTranscript, enabled }: { onTranscript: (t: string)
       <Pressable accessibilityLabel="Voice input" onPress={toggle} style={[styles.mic, listening && styles.micActive]}>
         <Ionicons name={listening ? 'mic' : 'mic-outline'} size={22} color={listening ? '#fff' : theme.colors.accent} />
       </Pressable>
-      {listening && <Text style={styles.hint}>Listening\u2026</Text>}
+      {listening && <Text style={styles.hint}>{'Listening\u2026'}</Text>}
     </View>
   );
 }

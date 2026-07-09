@@ -44,7 +44,7 @@ export default function SavedScreen() {
         renderItem={({ item }) => (
           <View style={styles.card}>
             <Text style={styles.dir}>
-              {DIRECTION_LABELS[item.direction].from + ARROW + DIRECTION_LABELS[item.direction].to}
+              {DIRECTION_LABELS[item.direction].from + ' ' + ARROW + ' ' + DIRECTION_LABELS[item.direction].to}
             </Text>
             <Text style={styles.input}>{item.input}</Text>
             <Text style={styles.output}>{item.output}</Text>
