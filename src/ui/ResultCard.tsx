@@ -11,11 +11,13 @@ export function ResultCard({
   suggestions,
   isFavorite,
   onToggleFavorite,
+  onRejectCorrection,
 }: {
   result: TranslationResult;
   suggestions: string[];
   isFavorite?: boolean;
   onToggleFavorite?: () => void;
+  onRejectCorrection?: (word: string) => void;
 }) {
   if (result.output === '') return null;
   return (
@@ -39,6 +41,23 @@ export function ResultCard({
       {result.hasMisses && (
         <Text style={styles.note}>Gray words were not found in the dictionary.</Text>
       )}
+      {result.tokens
+        .filter((t) => t.correction !== undefined)
+        .map((t, i) => (
+          <View key={i} style={styles.correctionRow}>
+            <Text style={styles.note}>
+              {'corrected: ' + t.correction!.from + ' \u2192 ' + t.correction!.to}
+            </Text>
+            {onRejectCorrection && (
+              <Pressable
+                accessibilityLabel={'Keep original word ' + t.correction!.from}
+                onPress={() => onRejectCorrection(t.correction!.from)}
+              >
+                <Text style={styles.keepOriginal}>keep original</Text>
+              </Pressable>
+            )}
+          </View>
+        ))}
       {suggestions.length > 0 && (
         <Text style={styles.note}>Did you mean: {suggestions.join(', ')}?</Text>
       )}
@@ -74,6 +93,8 @@ const styles = StyleSheet.create({
   output: { fontSize: 22, color: theme.colors.text, lineHeight: 30 },
   miss: { color: theme.colors.muted, fontStyle: 'italic' },
   note: { fontSize: 13, color: theme.colors.muted, marginTop: 8 },
+  correctionRow: { flexDirection: 'row', alignItems: 'center', gap: 12, marginTop: 8 },
+  keepOriginal: { fontSize: 13, color: theme.colors.accent, fontWeight: '600' },
   actions: { flexDirection: 'row', gap: 8, marginTop: 12 },
   action: { backgroundColor: theme.colors.accentSoft, borderRadius: 20, padding: 10 },
 });
