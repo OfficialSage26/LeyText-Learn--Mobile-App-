@@ -12,6 +12,8 @@ export interface TranslationResult {
 export interface Lexicon {
   findPhrase(normalizedText: string, direction: Direction): Promise<string | null>;
   findWord(normalizedWord: string, direction: Direction): Promise<string | null>;
+  findWordCandidates(normalizedWord: string, direction: Direction): Promise<string[]>;
+  getAffixRules(): Promise<AffixRule[]>;
 }
 export type AffixType = 'prefix' | 'infix' | 'suffix';
 export interface AffixRule { type: AffixType; tl: string; ceb: string; }

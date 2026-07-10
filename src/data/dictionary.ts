@@ -1,5 +1,5 @@
 import type { SQLiteDatabase } from 'expo-sqlite';
-import type { Direction, Lexicon } from '../engine/types';
+import type { AffixRule, Direction, Lexicon } from '../engine/types';
 
 export interface PhraseEntry {
   id: number;
@@ -10,6 +10,8 @@ export interface PhraseEntry {
 }
 
 export class DictionaryRepo implements Lexicon {
+  private affixRules: AffixRule[] | null = null;
+
   constructor(private readonly db: SQLiteDatabase) {}
 
   async findPhrase(normalizedText: string, direction: Direction): Promise<string | null> {
@@ -38,6 +40,28 @@ export class DictionaryRepo implements Lexicon {
       limit,
     );
     return rows.map((r) => r.w);
+  }
+
+  async findWordCandidates(normalizedWord: string, direction: Direction): Promise<string[]> {
+    const col = direction === 'tl-ceb' ? 'tl' : 'ceb';
+    const rows = await this.db.getAllAsync<{ w: string }>(
+      `SELECT DISTINCT ${col} AS w FROM words
+       WHERE substr(${col}, 1, 1) = ? AND abs(length(${col}) - ?) <= 2
+       LIMIT 50`,
+      normalizedWord.slice(0, 1),
+      normalizedWord.length,
+    );
+    return rows.map((r) => r.w);
+  }
+
+  // Affix rules never change at runtime; load once per repo instance.
+  async getAffixRules(): Promise<AffixRule[]> {
+    if (this.affixRules === null) {
+      this.affixRules = await this.db.getAllAsync<AffixRule>(
+        'SELECT type, tl, ceb FROM affixes',
+      );
+    }
+    return this.affixRules;
   }
 
   async getCategoryCounts(): Promise<{ category: string; count: number }[]> {

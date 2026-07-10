@@ -1,10 +1,19 @@
 import { translate } from '../engine';
-import type { Direction, Lexicon } from '../types';
+import type { AffixRule, Direction, Lexicon } from '../types';
 
-function fakeLexicon(phrases: Record<string, string>, words: Record<string, string>): Lexicon {
+function fakeLexicon(
+  phrases: Record<string, string>,
+  words: Record<string, string>,
+  affixRules: AffixRule[] = [],
+): Lexicon {
   return {
     findPhrase: async (t: string, _d: Direction) => phrases[t] ?? null,
     findWord: async (w: string, _d: Direction) => words[w] ?? null,
+    findWordCandidates: async (w: string, _d: Direction) =>
+      Object.keys(words).filter(
+        (k) => k[0] === w[0] && Math.abs(k.length - w.length) <= 2,
+      ),
+    getAffixRules: async () => affixRules,
   };
 }
 
