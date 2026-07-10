@@ -15,6 +15,10 @@
 - [ ] Mic: works with offline pack, or shows friendly notice
 - [ ] Settings: default direction persists; clear history works
 
+## Size budget (hard cap: 150MB total)
+- [ ] Release .aab base download size checked in Play Console (or `bundletool get-size total`) - must leave headroom for future model (~60MB)
+- [ ] No new dependency or bundled asset added tens of MB since last release
+
 ## Store
 - [ ] Version bumped in app.json
 - [ ] `npx eas-cli build --platform android --profile production`
