@@ -1,6 +1,18 @@
 export type Direction = 'tl-ceb' | 'ceb-tl';
 export type TranslationMethod = 'phrase' | 'word-by-word';
-export interface TokenResult { source: string; target: string | null; }
+export type MatchType = 'exact' | 'chunk' | 'affix' | 'fuzzy' | 'miss';
+
+export interface TokenResult {
+  source: string;                              // original word(s) as typed
+  target: string | null;
+  matchType: MatchType;
+  correction?: { from: string; to: string };   // present iff matchType === 'fuzzy'
+}
+
+export interface TranslateOptions {
+  rejectedCorrections?: string[];  // normalized words the user chose to keep as typed
+}
+
 export interface TranslationResult {
   input: string;
   output: string;
