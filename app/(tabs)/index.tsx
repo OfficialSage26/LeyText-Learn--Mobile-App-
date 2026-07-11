@@ -18,6 +18,7 @@ export default function TranslateScreen() {
   const [suggestions, setSuggestions] = useState<string[]>([]);
   const [repo, setRepo] = useState<UserRepo | null>(null);
   const [isFav, setIsFav] = useState(false);
+  const [rejectedCorrections, setRejectedCorrections] = useState<string[]>([]);
 
   useEffect(() => {
     UserRepo.create().then(setRepo);
@@ -41,7 +42,7 @@ export default function TranslateScreen() {
         setSuggestions([]);
         return;
       }
-      const r = await translate(text, direction, dict);
+      const r = await translate(text, direction, dict, { rejectedCorrections });
       if (cancelled) return;
       setResult(r);
       // Offer near-matches only for a single unknown word.
@@ -56,7 +57,7 @@ export default function TranslateScreen() {
       cancelled = true;
       clearTimeout(handle);
     };
-  }, [text, direction, dict]);
+  }, [text, direction, dict, rejectedCorrections]);
 
   useEffect(() => {
     if (!repo || !result || result.output === '') return;
@@ -77,14 +78,23 @@ export default function TranslateScreen() {
     <SafeAreaView style={styles.container}>
       <KeyboardAvoidingView behavior={Platform.OS === 'ios' ? 'padding' : undefined} style={{ flex: 1 }}>
         <Text style={styles.title}>Translate</Text>
-        <DirectionToggle value={direction} onChange={setDirection} />
+        <DirectionToggle
+          value={direction}
+          onChange={(d) => {
+            setDirection(d);
+            setRejectedCorrections([]);
+          }}
+        />
         <TextInput
           style={styles.input}
           multiline
           placeholder={direction === 'tl-ceb' ? 'Isulat ang Tagalog dito\u2026' : 'Isulat ang Bisaya dinhi\u2026'}
           placeholderTextColor={theme.colors.muted}
           value={text}
-          onChangeText={setText}
+          onChangeText={(t) => {
+            setText(t);
+            setRejectedCorrections([]);
+          }}
           autoCorrect={false}
         />
         <MicButton enabled={direction === 'tl-ceb'} onTranscript={setText} />
@@ -97,6 +107,9 @@ export default function TranslateScreen() {
               if (!repo || !result) return;
               setIsFav(await repo.toggleFavorite(result.input, result.output, result.direction));
             }}
+            onRejectCorrection={(w) =>
+              setRejectedCorrections((prev) => (prev.includes(w) ? prev : [...prev, w]))
+            }
           />
         )}
       </KeyboardAvoidingView>
